@@ -1,3 +1,40 @@
+.li-text-right {
+  text-align: right;
+}
+
+h3 { 
+  color: rgb(13, 140, 156);
+  text-align: left;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.home_content {
+  padding-top: 3%;
+  margin-left: 5%;
+  margin-right: 2%;
+  background-color: white;
+  width: 700px;
+}
+
+.sidebar {
+  padding-top: 3%;
+  margin-left: 2%;
+  margin-right: 5%;
+  width: 430px;
+  background-color: white;
+  float: right;
+  position: relative;
+  height: 100%;
+  overflow: visible;
+}
+
+.floated {
+  float: left;
+  margin-right: 5%;
+  margin-bottom: 2%;
+}
+
 /* .box {
   height: 400px;
   padding: 20px;
@@ -7,4 +44,45 @@
 
 .margin-top-80 {
   margin-top: 80px;
+} */
+
+
+/* h1 {
+  color: slateblue;
+  text-align: center;
+  background-color: thistle;
+}
+
+h2 {
+  color: indigo;
+}
+
+h3 {
+  color: steelblue;
+
+}
+
+img {
+  box-shadow: 15px 15px 2px black;
+}
+
+section {
+background-color: slategrey;
+}
+
+p {
+font-size: 18px
+}
+
+ul {
+border-style: solid;
+  border-width: 2px;
+}
+
+.vals_class {
+    font-size: 30px;
+}
+
+#vals_id {
+    font-size: 22px;
 } */
