@@ -11,6 +11,11 @@ h3 {
   font-weight: bold;
 }
 
+h4 {
+  color: rgb(13, 140, 156);
+  font-weight: bold;
+}
+
 .home_content {
   padding-top: 3%;
   margin-left: 4%;
@@ -39,6 +44,18 @@ h3 {
 
 .img_padding {
   padding: 6px 6px 6px 6px;
+}
+
+.content {
+  padding-top: 3%;
+  margin-left: 4%;
+  margin-right: 4%;
+  background-color: white;
+  width: 1160px;
+}
+
+.img-center {
+  text-align: center;
 }
 
 /* .box {
