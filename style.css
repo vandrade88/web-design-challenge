@@ -1,5 +1,7 @@
-.li-text-right {
-  text-align: right;
+.active {
+  color: white;
+  font-weight: bold;
+  background-color: rgb(13, 140, 156);
 }
 
 h3 { 
@@ -11,7 +13,7 @@ h3 {
 
 .home_content {
   padding-top: 3%;
-  margin-left: 5%;
+  margin-left: 4%;
   margin-right: 2%;
   background-color: white;
   width: 700px;
@@ -20,8 +22,8 @@ h3 {
 .sidebar {
   padding-top: 3%;
   margin-left: 2%;
-  margin-right: 5%;
-  width: 430px;
+  margin-right: 4%;
+  width: 455px;
   background-color: white;
   float: right;
   position: relative;
@@ -33,6 +35,10 @@ h3 {
   float: left;
   margin-right: 5%;
   margin-bottom: 2%;
+}
+
+.img_padding {
+  padding: 6px 6px 6px 6px;
 }
 
 /* .box {
