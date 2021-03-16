@@ -31,7 +31,6 @@ h4 {
   width: 455px;
   background-color: white;
   float: right;
-  position: relative;
   height: 100%;
   overflow: visible;
 }
@@ -50,7 +49,7 @@ h4 {
   padding: 10px;
 }
 
-.content {
+.comp-content {
   padding-top: 3%;
   margin-left: 4%;
   margin-right: 4%;
