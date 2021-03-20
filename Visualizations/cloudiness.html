@@ -2,7 +2,7 @@
 <html lang="eng-us">
     <head>
         <meta charset="UTF-8">
-        <title>Comparisons</title>
+        <title>Cloudiness</title>
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="../style.css">
@@ -39,41 +39,53 @@
         </div>
       </nav>
 <br>
-<div class="comp-content">
+<div class="sidebar">
     <div class="container">
         <div class="row">
             <div class=col-md-12>
-                <h3>Weather Plot Comparison: Latitude vs. X</h3>
+                <h3>Visualizations</h3>
                 <hr>
             </div>
         </div>
+        <div class="row" style="padding-bottom: 30px;">
+            <div class="col-5" style="padding-left: 30px;">
+                <a href="max_temp.html" class="thumbnail">
+                <img class="panel" src="../Resources/assets/visualizations/Latitude vs. Max Temperature_small.png" alt="max temperature thumbnail"></a>
+            </div>
+            <div class="col-5" style="padding-left: 30px;">
+                <a href="humidity.html" class="thumbnail">
+                <img class="panel" src="../Resources/assets/visualizations/Latitude vs. Humidity_small.png" alt="humidity thumbnail"></a>
+            </div>
+        </div>
+        <div class="row" style="padding-bottom: 30px;">
+            <div class="col-5" style="padding-left: 30px;">
+                <a href="cloudiness.html" class="thumbnail">
+                <img class="panel img-border" src="../Resources/assets/visualizations/Latitude vs. Cloudiness_small.png" alt="cloudiness thumbnail"></a>
+            </div>
+            <div class="col-5" style="padding-left: 30px;">
+                <a href="wind_speed.html" class="thumbnail">
+                <img class="panel" src="../Resources/assets/visualizations/Latitude vs. Wind Speed_small.png" alt="wind speed thumbnail"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="home_content">
+    <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <p>Click any plot to get an in-depth analysis.</p></div></div>
-                <br><br>
-            <div class="row img-center">
-                <div class="col-md-6">
-                    <h4>vs. Max Temperature</h4><br>
-                    <a href="max_temp.html" class="thumbnail">
-                    <img class="panel" src="../Resources/assets/visualizations/Latitude vs. Max Temperature.png" alt="max temperature thumbnail"></a>
-            </div>
-            <div class="col-md-6">
-                <h4>vs. Humidity</h4><br>
-                    <a href="humidity.html" class="thumbnail">
-                    <img class="panel" src="../Resources/assets/visualizations/Latitude vs. Humidity.png" alt="humidity thumbnail"></a>
-            </div>
-            </div>
-        <br><br>
-        <div class="row img-center">
-            <div class="col-md-6">
-                <h4>vs. Cloudiness</h4><br>
-                    <a href="cloudiness.html" class="thumbnail">
-                    <img class="panel"  src="../Resources/assets/visualizations/Latitude vs. Cloudiness.png" alt="cloudiness thumbnail"></a>
-            </div>
-            <div class="col-md-6">
-                <h4>vs. Wind Speed</h4><br>
-                    <a href="wind_speed.html" class="thumbnail">
-                    <img class="panel"  src="../Resources/assets/visualizations/Latitude vs. Wind Speed.png" alt="wind speed thumbnail"></a>
+                <h3>Weather Plot: Cloudiness</h3>
+                <hr>
+                <div class="row">
+                    <div class="col-md-12 img-center">
+                    <img class="img-full" style="padding: 30px;" src="../Resources/assets/visualizations/Latitude vs. Cloudiness.png" alt="cloudiness image"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                    <p class="spacing" style="padding-right: 20px; padding-left: 20px;">There is no correlation between cloudiness levels and latitude coordinates.</p>
+                    <br>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
