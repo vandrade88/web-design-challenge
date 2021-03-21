@@ -34,6 +34,15 @@ h4 {
   float: left;
 }
 
+.comp-content {
+  padding-top: 3%;
+  margin-left: 4%;
+  margin-right: 4%;
+  background-color: white;
+  position: absolute;
+  width: 90%;
+}
+
 .sidebar {
   padding-top: 3%;
   margin-right: 4%;
@@ -42,7 +51,7 @@ h4 {
   width: 30%;
   background-color: white;
   height: 100%;
-  overflow: visible;
+  overflow: auto;
 }
 
 .floated {
@@ -59,14 +68,6 @@ h4 {
 .img-border {
   border-color: rgb(13, 140, 156);
   border-style: solid;
-}
-
-.comp-content {
-  padding-top: 3%;
-  margin-left: 4%;
-  margin-right: 4%;
-  background-color: white;
-  width: 1160px;
 }
 
 .img-center {
