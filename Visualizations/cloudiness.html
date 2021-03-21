@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="eng-us">
     <head>
-        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Cloudiness</title>
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -9,7 +11,7 @@
 
     </head>
 <body style="background-color: lightgray;">
-
+<!-- Bootstrap Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" style="background-color: rgb(13, 140, 156);" href="../index.html"><strong>Latitude Analysis Dashboard</strong></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,56 +41,49 @@
         </div>
       </nav>
 <br>
-<div class="sidebar">
-    <div class="container">
-        <div class="row">
-            <div class=col-md-12>
-                <h3>Visualizations</h3>
-                <hr>
-            </div>
-        </div>
-        <div class="row" style="padding-bottom: 30px;">
-            <div class="col-5" style="padding-left: 30px;">
-                <a href="max_temp.html" class="thumbnail">
-                <img class="panel" src="../Resources/assets/visualizations/Latitude vs. Max Temperature_small.png" alt="max temperature thumbnail"></a>
-            </div>
-            <div class="col-5" style="padding-left: 30px;">
-                <a href="humidity.html" class="thumbnail">
-                <img class="panel" src="../Resources/assets/visualizations/Latitude vs. Humidity_small.png" alt="humidity thumbnail"></a>
-            </div>
-        </div>
-        <div class="row" style="padding-bottom: 30px;">
-            <div class="col-5" style="padding-left: 30px;">
-                <a href="cloudiness.html" class="thumbnail">
-                <img class="panel img-border" src="../Resources/assets/visualizations/Latitude vs. Cloudiness_small.png" alt="cloudiness thumbnail"></a>
-            </div>
-            <div class="col-5" style="padding-left: 30px;">
-                <a href="wind_speed.html" class="thumbnail">
-                <img class="panel" src="../Resources/assets/visualizations/Latitude vs. Wind Speed_small.png" alt="wind speed thumbnail"></a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="home_content">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
+<!-- Content Section -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-7 col-md-12">
+            <!-- Main Content Box -->
+            <div class="box">
                 <h3>Weather Plot: Cloudiness</h3>
                 <hr>
-                <div class="row">
-                    <div class="col-md-12 img-center">
-                    <img class="img-full" style="padding: 30px;" src="../Resources/assets/visualizations/Latitude vs. Cloudiness.png" alt="cloudiness image"></div>
+                <div class="img-center">
+                    <img class="img-full" style="padding: 30px;" src="../Resources/assets/visualizations/Latitude vs. Cloudiness.png" alt="cloudiness image">
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
                     <p class="spacing" style="padding-right: 20px; padding-left: 20px;">There is no correlation between cloudiness levels and latitude coordinates.</p>
                     <br>
+            </div>
+        </div>
+        <!-- Sidebar Content Box -->
+        <div class="col-lg-5 col-md-12">
+            <div class="box">
+                <h4>Visualizations</h4>
+                <hr>
+                <div class="row" style="padding-bottom: 30px;">
+                    <div class="col-6">
+                        <a href="max_temp.html" class="thumbnail">
+                        <img class="sidebar" src="../Resources/assets/visualizations/Latitude vs. Max Temperature_small.png" alt="max temperature thumbnail"></a>
+                    </div>
+                    <div class="col-6">
+                        <a href="humidity.html" class="thumbnail">
+                        <img class="sidebar" src="../Resources/assets/visualizations/Latitude vs. Humidity_small.png" alt="humidity thumbnail"></a>
+                    </div>
+                </div>
+                <div class="row" style="padding-bottom: 30px;">
+                    <div class="col-6">
+                        <a href="cloudiness.html" class="thumbnail">
+                        <img class="sidebar" src="../Resources/assets/visualizations/Latitude vs. Cloudiness_small.png" alt="cloudiness thumbnail"></a>
+                    </div>
+                    <div class="col-6">
+                        <a href="wind_speed.html" class="thumbnail">
+                        <img class="sidebar" src="../Resources/assets/visualizations/Latitude vs. Wind Speed_small.png" alt="wind speed thumbnail"></a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div>    
 </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

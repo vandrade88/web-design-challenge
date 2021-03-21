@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="eng-us">
     <head>
-        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Latitude Analysis Dashboard</title>
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -39,50 +41,51 @@
         </div>
       </nav>
 <br>
-<div class="sidebar">
-    <div class="container">
-        <div class="row">
-            <div class=col-md-12>
-                <h3>Visualizations</h3>
-                <hr>
-            </div>
-        </div>
-        <div class="row" style="padding-bottom: 30px;">
-            <div class="col-5" style="padding-left: 30px;">
-                <a href="Visualizations/max_temp.html" class="thumbnail">
-                <img class="panel" src="Resources/assets/visualizations/Latitude vs. Max Temperature_small.png" alt="max temperature thumbnail"></a>
-            </div>
-            <div class="col-5" style="padding-left: 30px;">
-                <a href="Visualizations/humidity.html" class="thumbnail">
-                <img class="panel" src="Resources/assets/visualizations/Latitude vs. Humidity_small.png" alt="humidity thumbnail"></a>
-            </div>
-        </div>
-        <div class="row" style="padding-bottom: 30px;">
-            <div class="col-5" style="padding-left: 30px;">
-                <a href="Visualizations/cloudiness.html" class="thumbnail">
-                <img class="panel" src="Resources/assets/visualizations/Latitude vs. Cloudiness_small.png" alt="cloudiness thumbnail"></a>
-            </div>
-            <div class="col-5" style="padding-left: 30px;">
-                <a href="Visualizations/wind_speed.html" class="thumbnail">
-                <img class="panel" src="Resources/assets/visualizations/Latitude vs. Wind Speed_small.png" alt="wind speed thumbnail"></a>
-            </div>
-        </div>
-    </div>
-</div>
 
-<div class="container home_content">
+<!-- Content Section -->
+<div class="container">
     <div class="row">
-        <div class="col-md-12">
-            <h3>Weather Plot Summary: Latitude vs. X</h3>
-            <hr>
-            <div class="floated">
-                <img class="img-full" src="Resources/assets/visualizations/Latitude vs. Max Temperature_med.png" alt="max temperature image">
+        <div class="col-lg-7 col-md-12">
+            <!-- Main Content Box -->
+            <div class="box">
+                <h3>Weather Plot Summary: Latitude vs. X</h3>
+                <hr>
+                <div class="floated">
+                    <img class="img-full" src="Resources/assets/visualizations/Latitude vs. Max Temperature_med.png" alt="max temperature image">
+                </div>
+                    <p class="spacing" style="padding-right: 20px; padding-left: 20px;">The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherAPI to assemble a dataset on over 500 cities.</p>
+                    <p class="spacing" style="padding-right: 20px; padding-left: 20px;">After assembling the dataset, we used MatPlotLib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+                    <br>
             </div>
-                <p class="spacing" style="padding-right: 20px; padding-left: 20px;">The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherAPI to assemble a dataset on over 500 cities.</p>
-                <p class="spacing" style="padding-right: 20px; padding-left: 20px;">After assembling the dataset, we used MatPlotLib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
-                <br>
         </div>
-    </div>
+        <!-- Sidebar Content Box -->
+        <div class="col-lg-5 col-md-12">
+            <div class="box">
+                <h4>Visualizations</h4>
+                <hr>
+                <div class="row" style="padding-bottom: 30px;">
+                    <div class="col-6">
+                        <a href="Visualizations/max_temp.html" class="thumbnail">
+                        <img class="sidebar" src="Resources/assets/visualizations/Latitude vs. Max Temperature_small.png" alt="max temperature thumbnail"></a>
+                    </div>
+                    <div class="col-6">
+                        <a href="Visualizations/humidity.html" class="thumbnail">
+                        <img class="sidebar" src="Resources/assets/visualizations/Latitude vs. Humidity_small.png" alt="humidity thumbnail"></a>
+                    </div>
+                </div>
+                <div class="row" style="padding-bottom: 30px;">
+                    <div class="col-6">
+                        <a href="Visualizations/cloudiness.html" class="thumbnail">
+                        <img class="sidebar" src="Resources/assets/visualizations/Latitude vs. Cloudiness_small.png" alt="cloudiness thumbnail"></a>
+                    </div>
+                    <div class="col-6">
+                        <a href="Visualizations/wind_speed.html" class="thumbnail">
+                        <img class="sidebar" src="Resources/assets/visualizations/Latitude vs. Wind Speed_small.png" alt="wind speed thumbnail"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
 </div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
