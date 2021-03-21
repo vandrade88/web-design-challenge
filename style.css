@@ -1,3 +1,7 @@
+.navbar {
+  background-color: #F8F9FA;
+}
+
 .sidebar:hover {
   border-color: rgb(13, 140, 156);
   border-style: solid;
@@ -6,6 +10,11 @@
 .navbar-brand {
   padding: 10px;
   margin-left: 1%;
+  color: white;
+}
+
+.navbar-expand-lg {
+  color: #F8F9FA;
 }
 
 .navbar-brand:hover {
@@ -55,21 +64,26 @@ h4 {
   line-height: 30px;
 }
 
-/* @media(max-width: 992px) {
-  .navbar-expand-lg {
-  background-color: rgb(13, 140, 156);
-} */
+@media(max-width: 992px) {
+  .navbar.navbar-expand-lg {
+    background-color: rgb(13, 140, 156);
+  }
 
-@media(max-width: 767px) {
-  .navbar.bg-light{
-      background-color: rgb(13, 140, 156);    
+  .navbar div {
+    background-color: white;
+  }
+    
+  .navbar {
+    padding: inherit; 
   }
 
   .navbar-expand-lg {
     background-color: rgb(13, 140, 156);
   }
 
-  .navbar {
-      padding:inherit;
+  .navbar-collapse {
+  background-color: white;
+  padding: 20px;
   }
+
 }
