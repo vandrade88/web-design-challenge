@@ -10,15 +10,6 @@
 .navbar-brand {
   padding: 10px;
   margin-left: 1%;
-  color: white;
-}
-
-.navbar-expand-lg {
-  color: #F8F9FA;
-}
-
-.navbar-brand:hover {
-  color: white;
 }
 
 h3 { 
@@ -65,14 +56,6 @@ h4 {
 }
 
 @media(max-width: 992px) {
-  .navbar.navbar-expand-lg {
-    background-color: rgb(13, 140, 156);
-  }
-
-  .navbar div {
-    background-color: white;
-  }
-    
   .navbar {
     padding: inherit; 
   }
