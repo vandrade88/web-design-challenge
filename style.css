@@ -45,6 +45,7 @@ h4 {
 .img-comp {
   width: 80%;
   height: 80%;
+  padding-bottom: 30px;
 }
 
 .img-border {
@@ -73,5 +74,5 @@ h4 {
   background-color: white;
   padding: 20px;
   }
-
+  
 }
